@@ -1,0 +1,24 @@
+h1{
+    color: orange;
+    font-family: 'Segoe UI';   
+}
+
+.kotak{
+    padding: 50px;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    margin: 10px;
+    background: yellowgreen;
+    float: left;
+}
+
+#kotak{
+    padding: 50px;
+    width: 100px;
+    color: violet;
+    height: 50px;
+    margin: 10px;
+    background: yellow;
+    float: left;
+}

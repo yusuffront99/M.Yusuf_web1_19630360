@@ -1,0 +1,39 @@
+.kotak{
+    padding: 50px;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    margin: 10px;
+    float: left;
+}
+
+#kotak{
+    padding: 50px;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    margin: 10px;
+    float: left; 
+}
+
+.biru{ 
+    background: rgb(50, 148, 205);
+}
+
+.hijautua{
+   background: green;
+}
+
+.merah{
+    background: rgb(255, 0, 140);
+   
+}
+#merahmuda{
+background: red;
+}
+
+#hijaumuda{
+    background: greenyellow;
+   
+}
+

@@ -1,0 +1,147 @@
+@font-face {
+	font-family: "lato";
+	src: url('lato.ttf');
+}
+*{ /* ini untuk mengatur halaman bawaan menjadi margin 0 padding 0 dan font lato */
+	font-family: "lato";
+	margin:	0;
+	padding: 0;
+}
+body {
+	background-color: #f7f7f7;
+}
+header {
+	font-size: 20px;
+	background-color: #FFF;
+	color: #cccccc;
+	height: 85px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+#topbar{
+	width:85%;
+	margin-left: auto ;
+    margin-right: auto ;
+}
+.logo {
+	float:left;
+}
+.logo img {
+	width: 160px;
+	float: left;
+}
+nav > ul {
+	float: right;
+}
+
+nav > ul > li {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+nav > ul > li a {
+	display: block;
+	min-width: 140px;
+	background-color: #58ce21;
+	color: #FFF;
+	text-align: center;
+	height: 45px;
+	padding: 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav > ul > .active a {
+	background-color: #fec107;
+}
+nav > ul > li a:hover {
+	color: #fff;
+	background-color: #12c8fc;
+}
+
+.wrap {
+	margin-top: 20px;
+	width:85%;
+	margin-left: auto ;
+    margin-right: auto ;
+}
+.box{
+	width: 74.5%;
+	float: left;
+}
+.blog-post{
+	background-color: #fff;
+	width: 47.6%;
+	box-sizing: border-box;
+	padding: 20px;
+	min-height: 350px;
+	margin: 10px;
+	float: left;
+}
+.box-gambar {
+	width: 100%;
+	min-height: 180px;
+	float: left;
+	margin-bottom: 20px;
+}
+.box-gambar img {
+	width: 100%;
+	height: 180px;
+}
+.blog-post .readmore {
+	text-decoration: none;
+	background-color: #58ce21;
+	padding: 10px 20px;
+	text-align: center;
+	box-sizing: border-box;
+	float: right;
+	color: #fff;
+}
+.readmore:hover {
+	background-color: #fec107;
+}
+.sidebar{
+	width: 24%;
+	background-color: #fff;
+	float:right;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-top: 10px;
+}
+.sidebar img {
+	width: 100%;
+}
+.clear {
+	clear: both;
+}
+footer{	
+	margin-top: 10px;
+	margin-left: auto ;    
+	margin-right: auto ;	
+	font-size:16px;	
+	height: auto;
+	padding:10px;	
+	background: url('footer.jpg') no-repeat;
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+	box-sizing: border-box;
+}
+#box-footer{	
+	width:85.2%;
+	margin-left: auto ;    
+	margin-right: auto ;
+	height: auto;	
+}
+.footer-1 {
+	width: 32.4%;
+	color: #fff;
+	padding: 20px;
+	box-sizing: border-box;	
+	height: 200px;
+	margin: 5px;	
+	float: left;
+}
+.footer-1 h2 {
+	margin-bottom: 20px;
+}

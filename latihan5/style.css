@@ -1,0 +1,11 @@
+
+#head {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    background: rgb(98, 194, 231);
+}
+
+img{
+    width: 220px;
+}

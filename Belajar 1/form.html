@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Belajar Membuat Form </title>
+    </head>
+
+    <body>
+        <form action="proses_form.php"  method="POST">
+            Nama : <input type="text" name="nama">
+            <br>
+
+            password : <input type="password" name="password">
+            <br>
+
+            Jenis Kelamin : <input type="radio" name="jenis_kelamin" value="Pria" checked>
+            Pria 
+                            <input type="radio" name="jenis_kelamin" value="Wanita" checked>
+            Wanita
+            <br>
+            
+            Hobi : <input type="checkbox" name="Ngoding"> Ngoding
+            Hobi : <input type="checkbox" name="baca"> Membaca
+            Hobi : <input type="checkbox" name="nonton"> Menonton
+            <br>
+
+            Asal Kota :
+            <select name="asal_kota">
+                <option value="kps"> Kuala Kapuas </option>
+                <option value="Mrb"> Marabahan </option>
+                <option value="bjm"> Banjarmasin  </option>
+                <option value="bjb"> Banjarbaru </option>
+            </select>
+            <br>
+
+            Komentar Anda :
+            <textarea name="komentar"  cols="20" rows="5"> Isi Text </textarea>
+            <br>
+
+            <input type="submit" value="Proses">
+        </form>
+    </body>
+</html>

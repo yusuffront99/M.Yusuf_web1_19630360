@@ -1,0 +1,75 @@
+body{
+    background-color: #eaeaea;
+    background-image: url(background.jpg)
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: salmon;
+}
+
+.heroing {
+    height: 250px;
+    background-image: url(image/kodak.jpg);
+    background-size: 100%;
+    background-size: cover;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+}
+
+.content{
+   padding: 20px;
+}
+
+.content p{
+    text-align: justify;
+}
+
+.content h2{
+    font-size: 28px;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top: -10px;
+}
+
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+}
+
+.copy {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.copy a{
+    text-decoration: none;
+    color: salmon;
+}
+
+    

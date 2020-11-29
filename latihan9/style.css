@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrap{
+    width: 980px;
+    margin: 0px auto;
+}
+
+.header{
+    height: 140px;
+    margin-bottom: 15px;
+    background-color: orange;
+}
+
+.content{
+    width: 690px;
+    height: 450px;
+    background-color: orangered;
+    float: left;
+}
+
+.sidebar{
+    width: 275px;
+    height: 450px;
+    background-color: palegreen;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.footer{
+    height: 70px;
+    margin-top: 15px;
+    background-color: palevioletred;
+}
